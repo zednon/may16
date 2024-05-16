@@ -1,0 +1,59 @@
+header {
+    background-color: #091e2c;
+  height: auto;
+ 
+}
+
+.main {
+ background-color: rgb(132, 0, 255);
+ height: auto;
+}
+
+footer {
+    background-color: #207ebd;
+    height: 300px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topNavBarLi {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topNavBar {
+    
+    padding: 10px;
+    text-align: right;
+}
+
+.topNavBarLi a  {
+    color: rgb(211, 195, 198);
+    text-decoration: none;
+}
+
+.mainGrid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.twoBox {
+    background-color: rgb(132, 0, 255);
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}
